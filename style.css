@@ -6,24 +6,13 @@
 .product-container {
   display: grid;
   grid-template-columns: 400px 1fr 300px;
+  gap: 20px;
+}
+
+/* Product Images */
+.product-images {
+  /* Grid col1 */
   background-color: #f8d7da; /* Light red */
-}
-
-/* Product Images */
-.product-images {
-  background-color: #d1ecf1; /* Light blue */
-}
-
-/* Product Details */
-.product-details {
-  background-color: #d4edda; /* Light green */
-}
-
-/* Product Images */
-.product-images {
-}
-
-.thumbnail-list {
 }
 
 ul.thumbnail-list li {
@@ -56,4 +45,16 @@ ul.thumbnail-list li {
   justify-content: center;
   font-size: 12px;
   color: #565959;
+}
+
+/* Product Details */
+.product-details {
+  /* Grid col2 */
+  background-color: #d4edda; /* Light green */
+}
+
+/* Purchase Options */
+.purchase-options {
+  /* Grid col3:  */
+  background-color: #d1ecf1; /* Light blue */
 }
