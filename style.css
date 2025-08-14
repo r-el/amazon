@@ -6,14 +6,17 @@
 .product-container {
   display: grid;
   grid-template-columns: 400px 1fr 300px;
+  background-color: #f8d7da; /* Light red */
 }
 
 /* Product Images */
 .product-images {
+  background-color: #d1ecf1; /* Light blue */
 }
 
 /* Product Details */
 .product-details {
+  background-color: #d4edda; /* Light green */
 }
 
 /* Product Images */
