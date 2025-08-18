@@ -23,7 +23,11 @@ body {
 /* Product Images */
 .product-images {
   /* Grid col1 */
-  background-color: #f8d7da; /* Light red */
+  display: flex;
+  /* grid-template-columns: 60px 1fr; */
+  gap: 12px;
+  padding: 12px;
+  background: #f1f1f1;
 }
 
 ul.thumbnail-list li {
