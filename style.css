@@ -52,6 +52,10 @@ ul.thumbnail-list li {
   transition: border-color 0.2s ease;
 }
 
+.thumbnail:hover {
+  border-color: #007185;
+}
+
 .thumbnail img {
   width: 100%;
   height: auto;
