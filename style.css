@@ -45,7 +45,7 @@ body {
 
 .thumbnail {
   box-sizing: border-box;
-  border: 1px solid #df1818;
+  border: 1px solid #dddddd;
   width: 50px;
   height: 50px;
   border-radius: 4px;
