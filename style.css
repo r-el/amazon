@@ -56,6 +56,11 @@ ul.thumbnail-list li {
   border-color: #007185;
 }
 
+.thumbnail.active {
+  border-color: #007185;
+  border-width: 2px;
+}
+
 .thumbnail img {
   width: 100%;
   height: auto;
