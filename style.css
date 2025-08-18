@@ -26,12 +26,11 @@ body {
 
 /* Product Images */
 .product-images {
-  /* Grid col1 */
-  display: flex;
-  /* grid-template-columns: 60px 1fr; */
+  display: grid;
+  grid-template-columns: 60px 1fr;
   gap: 12px;
   padding: 12px;
-  background: #f1f1f1;
+  background: white;
 }
 
 ul.thumbnail-list li {
